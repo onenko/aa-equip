@@ -1,0 +1,120 @@
+.def {
+  font: normal 12px Verdana; color: black;
+  background-color:white;
+}
+.def h1 { font: bold 18px Verdana; color: navy;}
+.def h3 { font: normal 18px Verdana; color: navy;}
+.def h5 { font: normal 16px Verdana; color: navy;}
+
+.def table.report {
+  border-collapse:collapse;
+  border: 1px solid #555555;
+  font: normal 12px Verdana;
+}
+
+.def .report td {
+  border: 1px solid #555555;
+  background-color:white;
+  padding: 4px;
+}
+
+.def .report td.link {
+  font: normal 10px Verdana;
+}
+
+.def .report th, td.thead {
+  border: 1px solid #555555;
+  background-color:#f3f3f3;
+  font: normal 11px Verdana;
+  text-align:center;
+  padding: 4px;
+}
+
+.def table { font: normal 10px Verdana; }
+
+
+.rep {
+  font: normal 12px Verdana; color: black;
+  background-color:#f9f9ff;
+}
+.rep h1 { font: bold 18px Verdana; color: navy;}
+.rep h3 { font: normal 18px Verdana; color: navy;}
+.rep h5 { font: normal 16px Verdana; color: navy;}
+
+.rep table.report {
+  border-collapse:collapse;
+  border: 1px solid #a6c9e2;
+  font: normal 12px Verdana;
+}
+
+.rep .report td {
+  border: 1px solid #a6c9e2;
+  background-color:#f7f7ff;
+  padding: 4px;
+}
+
+.rep .report td.link {
+  font: normal 10px Verdana;
+}
+
+.rep .report th, td.thead {
+  border: 1px solid #a6c9e2;
+  background-color:#eeeeff;
+  font: normal 11px Verdana;
+  text-align:center;
+  padding: 4px;
+}
+
+.rep table { font: normal 10px Verdana; }
+
+
+
+
+.nan {
+  font: normal 12px Verdana; color: #eeeeee;
+  background-color:#330022;
+}
+.nan h1 { font: bold 18px Verdana; color: white;}
+.nan h3 { font: normal 18px Verdana; color: #eeeeee;}
+.nan h5 { font: normal 16px Verdana; color: #eeeeee;}
+
+
+.nan table.report {
+  border-collapse:collapse;
+  border: 1px solid;
+  font: normal 12px Verdana;
+}
+
+.nan .report td {
+  border: 1px solid #993377;
+  padding: 4px;
+  background-color:#330022;
+}
+
+.nan .report td.link {
+  font: normal 10px Verdana;
+}
+
+.nan .report th, td.thead {
+  border: 1px solid #993377;
+  background-color:#550033;
+  font: normal 11px Verdana;
+/*  font-weight:400;	 400 - normal, 700 - bold */
+  text-align:center;
+  padding: 4px;
+}
+
+.nan a {
+  color: #eebbee;
+}
+
+.nan table {
+  font: normal 10px Verdana;
+}
+
+.grid {
+  min-width: 500px;
+/*  min-height: 200px; */
+}
+
+

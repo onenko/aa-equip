@@ -1,0 +1,10 @@
+var ITEM_BASIC  = 0x0001;
+var ITEM_GREAT  = 0x0002;
+var ITEM_RARE   = 0x0004;
+var ITEM_ARCANE = 0x0008;
+var ITEM_HEROIC = 0x0010;
+var ITEM_UNIQUE = 0x0020;
+var ITEM_CELEST = 0x0040;
+var ITEM_DIVINE = 0x0080;
+var ITEM_EPIC   = 0x00100;
+var aa = {};    // aa scope

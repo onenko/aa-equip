@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-animate.js"></script>
+    <script src="./ui-grid_3.1.1/ui-grid.js"></script>
+    <link  href="./ui-grid_3.1.1/ui-grid.css" rel="stylesheet" type="text/css">
+
+    <link  href="main.css" rel="stylesheet" type="text/css">
+    <script src="aa-items.js"></script>
+    <script src="aa-weaps.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body class="def">
+      
+    <h1>title of this fkng example</h1>
+
+      <div ng-controller="MainCtrl">
+
+
+         <div id="grid1" ui-grid="gridOptions1" class="grid"
+	           ng-style="tableHeight()">
+         </div>
+    
+    </div>
+  </body>
+</html>
